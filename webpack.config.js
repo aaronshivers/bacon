@@ -47,6 +47,7 @@ module.exports = {
   devtool: 'inline-source-map',
   devServer: {
     contentBase: path.join(__dirname, 'public'),
+    historyApiFallback: true,
     publicPath: '/dist/'
   }
 }

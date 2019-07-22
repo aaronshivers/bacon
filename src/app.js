@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import App from './components/App'
 import './styles/styles.scss'
+import AppRouter, { history } from './routers/AppRouter'
 
-render(<App />, document.getElementById('app'))
+render(<AppRouter />, document.getElementById('app'))
